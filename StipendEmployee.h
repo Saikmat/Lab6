@@ -1,5 +1,4 @@
-//
-// Created by SaiKM on 10/19/2023.
+// Copyright (c) 2023. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
 //
 
 #ifndef LAB6_STIPENDEMPLOYEE_H

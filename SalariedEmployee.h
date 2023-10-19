@@ -1,3 +1,6 @@
+// Copyright (c) 2023. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
+//
+
 #ifndef LAB6_SALARIEDEMPLOYEE_H
 #define LAB6_SALARIEDEMPLOYEE_H
 
