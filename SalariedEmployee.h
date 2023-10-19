@@ -1,7 +1,3 @@
-//
-// Created by SaiKM on 10/12/2023.
-//
-
 #ifndef LAB6_SALARIEDEMPLOYEE_H
 #define LAB6_SALARIEDEMPLOYEE_H
 
@@ -12,10 +8,12 @@ class SalariedEmployee : public Employee{
 private:
     double yearlySalary;
 public:
-    SalariedEmployee(int employeeID, std::string name, double yearlySalary);
+    SalariedEmployee(int, std::string, double);
 
+    //Returns double yearlySalary
     double getYearlySalary();
 
+    //Prints std::string name, int ID, double yearlySalary
     void printPay() override;
 };
 

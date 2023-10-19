@@ -16,6 +16,13 @@ private:
 public:
     HourlyEmployee(int, std::string, double, double);
 
+    //returns double hoursWorked
+    double getHoursWorked();
+
+    //returns double payRate
+    double getPayRate();
+
+    //Prints std::string name, int ID, double hoursWorked, double payRate
     void printPay() override;
 };
 

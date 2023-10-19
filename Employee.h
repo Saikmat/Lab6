@@ -5,7 +5,7 @@
 #ifndef LAB6_EMPLOYEE_H
 #define LAB6_EMPLOYEE_H
 
-#include <iostream>;
+#include <iostream>
 
 class Employee {
 private:
@@ -15,10 +15,14 @@ private:
 public:
     Employee(int, std::string);
 
+    // return int employeeID
     int getID() const;
 
+    //return std::string getName
     std::string getName() const;
 
+    //overrideable printPay
+    //Not given for base class
     virtual void printPay() = 0;
 };
 
