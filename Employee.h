@@ -1,4 +1,4 @@
-// Copyright (c) 2023. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
+// Copyright (c) 2024. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
 //
 
 #ifndef LAB6_EMPLOYEE_H
@@ -24,6 +24,8 @@ public:
     //overrideable printPay
     //Not given for base class
     virtual void printPay() = 0;
+
+    virtual ~Employee() = default;
 };
 
 

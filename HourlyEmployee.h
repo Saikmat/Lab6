@@ -1,4 +1,4 @@
-// Copyright (c) 2023. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
+// Copyright (c) 2024. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
 //
 
 #ifndef LAB6_HOURLYEMPLOYEE_H
@@ -16,10 +16,10 @@ public:
     HourlyEmployee(int, std::string, double, double);
 
     //returns double hoursWorked
-    double getHoursWorked();
+    double getHoursWorked() const;
 
     //returns double payRate
-    double getPayRate();
+    double getPayRate() const;
 
     //Prints std::string name, int ID, double hoursWorked, double payRate
     void printPay() override;

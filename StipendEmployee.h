@@ -1,4 +1,4 @@
-// Copyright (c) 2023. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
+// Copyright (c) 2024. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
 //
 
 #ifndef LAB6_STIPENDEMPLOYEE_H

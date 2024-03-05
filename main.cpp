@@ -1,4 +1,4 @@
-// Copyright (c) 2023. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
+// Copyright (c) 2024. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
 //
 
 #include "vector"
@@ -23,6 +23,9 @@ int main(){
     vector<Employee*> employeeVector;
     getInput(employeeVector);
     printList(employeeVector);
+    for(auto employee : employeeVector){
+        delete employee;
+    }
     return 0;
 }
 
@@ -166,5 +169,5 @@ void printList(vector<Employee*>& vector){
  * Prints HCC copyright
  */
 void printCopyright() {
-    cout << "Copyright 2023 - Howard Community College All rights reserved; Unauthorized duplication prohibited\n\n\n\n";
+    cout << "Copyright 2024 - Howard Community College All rights reserved; Unauthorized duplication prohibited\n\n\n\n";
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2023. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
+// Copyright (c) 2024. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
 //
 
 #include <iomanip>
@@ -17,7 +17,7 @@ SalariedEmployee::SalariedEmployee(int employeeID, std::string name, double year
 /*
  * Returns the double yearly salary
  */
-double SalariedEmployee::getYearlySalary() {
+double SalariedEmployee::getYearlySalary() const {
     return SalariedEmployee::yearlySalary;
 }
 

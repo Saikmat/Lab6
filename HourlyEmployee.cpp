@@ -1,4 +1,4 @@
-// Copyright (c) 2023. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
+// Copyright (c) 2024. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
 //
 
 #include <iomanip>
@@ -30,13 +30,13 @@ void HourlyEmployee::printPay() {
 /*
  * Returns the number of hours worked by the employee
  */
-double HourlyEmployee::getHoursWorked() {
+double HourlyEmployee::getHoursWorked() const {
     return HourlyEmployee::hoursWorked;
 }
 
 /*
  * Returns the pay rate of the employee
  */
-double HourlyEmployee::getPayRate() {
+double HourlyEmployee::getPayRate() const {
     return HourlyEmployee::payRate;
 }

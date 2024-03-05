@@ -1,4 +1,4 @@
-// Copyright (c) 2023. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
+// Copyright (c) 2024. Howard Community College All Rights Reserved. Unauthorized Duplication Prohibited.
 //
 
 #ifndef LAB6_SALARIEDEMPLOYEE_H
@@ -14,7 +14,7 @@ public:
     SalariedEmployee(int, std::string, double);
 
     //Returns double yearlySalary
-    double getYearlySalary();
+    double getYearlySalary() const;
 
     //Prints std::string name, int ID, double yearlySalary
     void printPay() override;
